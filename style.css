@@ -1,4 +1,6 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -543,109 +545,99 @@ body {
 /*Image SectionEnd*/
 
 /*Learn More Section*/
-.learn-more-container {
-    position: relative;
-   height: 75vh;
-    width: 90%; /* Set width to 90% */
-    max-width: 1400px; /* Optional: limits max width for larger screens */
-    margin: 0 auto; /* Center the container horizontally */
-    overflow: hidden;
+#learnmore{
+
+    width: 90%;
+    height: 75vh;
+    margin: 80px auto;
+    background: url('images/image-placeholder.png') no-repeat center / cover;
+    color: #fff;
+}
+
+
+
+.learn-more-container{
+    width: 35%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-/* Background Image */
-.hero-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-}
-
-/* Overlay for better text readability */
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 2;
-}
-
-/* Caption/Content */
-.hero-content {
-    position: relative;
-    z-index: 3;
+    align-items: center;
     text-align: center;
-    color: white;
-    padding: 20px;
-    max-width: 800px;
 }
 
-.hero-content h1 {
-    font-size: 3rem;
+.learn-more-container .learn-more-content h2{
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    font-weight: 600;
     margin-bottom: 1rem;
-    font-weight: 700;
-    line-height: 1.2;
 }
 
-.hero-content p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
+.learn-more-container .learn-more-content p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
-/* Button Styles */
-.hero-btn {
-    display: inline-block;
-    padding: 12px 30px;
-    color: white;
+.learn-more-container .learn-more-content a{
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    font-weight: 600;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: .25rem;
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    border-bottom: 2px solid white;
-    transition: all 0.3s ease;
 }
 
-.hero-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-bottom-color: #ddd;
-    color: #ddd;
+.learn-more-container .learn-more-content a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .hero-content h1 {
-        font-size: 2rem;
+    .learn-more-container .learn-more-content h2{
+        font-size: 34px;
+        line-height: 40px;
+        
+    }
+    
+    .learn-more-container .learn-more-content p{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+       
+    }
+    
+    .learn-more-container .learn-more-content a{
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        font-weight: 600;
+        color: #fff;
+        
     }
 
-    .hero-content p {
-        font-size: 1rem;
+    .learn-more-container{
+        width: 85%;
+      
+
     }
 
-    .hero-btn {
-        padding: 10px 25px;
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 1.5rem;
+    #learnmore{   
+        width: 93%;
+        margin: 80px auto;
+        background: url('images/image-placeholder-mobile.png') no-repeat center / cover;
+        color: #fff;
+        padding: 20px;
     }
 
-    .hero-content p {
-        font-size: 0.9rem;
-    }
-
-    .hero-btn {
-        padding: 8px 20px;
-        font-size: 0.9rem;
+    .learn-more-container{
+        
     }
 }
 /*Learn More Section*/
