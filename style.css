@@ -654,9 +654,7 @@ body {
         align-items: center;
     }
 
-    .learn-more-content{
-      
-    }
+   
 
     .image-container{
         max-width: 343px;
@@ -731,6 +729,7 @@ body {
     line-height: 24px;
     font-weight: 600;
     margin-bottom: 15px;
+   
 }
 
 .footer-column h4 a {
@@ -827,12 +826,15 @@ body {
     }
 }
 
-/* Mobile Styles (≤ 375px) */
+
 @media (max-width: 768px) {
 
     
 
     .footer {
+        margin-bottom: 100px;
+         margin-top: 0; /* Remove extra margin above the footer */
+        padding-top: 1rem;
         padding: 24px 16px; /* Reduced padding for mobile */
     }
 
@@ -872,6 +874,7 @@ body {
 
     .footer-column h4{
         justify-content: space-around;
+        border-bottom: 1px solid #D0D5DD;
     }
 
     .footer-column h4 {
