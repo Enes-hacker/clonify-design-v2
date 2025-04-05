@@ -6,6 +6,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Clonify</title>
+    <style>
+        /* Hide the first .social-icons for smaller resolutions */
+        @media (max-width: 768px) {
+            .footer-left .social-icons {
+                display: none;
+            }
+        }
+
+        /* Hide the second .social-icons for desktop resolutions */
+        @media (min-width: 769px) {
+            .footer-bottom .social-icons {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -94,11 +109,11 @@
 
   
 
-        <button class="btn btn--left-brands">
+        <button class="btn-two btn--left-brands">
             <img src="images/slider-left.svg" alt="Left Arrow" class="btn-icon-two">
               
         </button>
-        <button class="btn btn--right-brands">
+        <button class="btn-two btn--right-brands">
             <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon-two">
         </button>
 
@@ -145,5 +160,85 @@
 </section>
 
     <!--Learn More Section-->
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Left Section: Logo and Description -->
+            <div class="footer-left">
+                <img src="images/Branding.png" alt="Clonify Logo" class="logo">
+                <p>Phos fluore scently engage worldwide method process shopping.</p>
+                <div class="social-icons">
+                    <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                    <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+                    <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+                    <a href="#"><img src="images/email-icon.svg" alt="Email"></a>
+                </div>
+            </div>
+
+            <!-- Middle Sections: Links -->
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>
+                        <a href="#">Product</a>
+                        <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon">
+                    </h4>
+                    <ul>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>
+                        <a href="#">Information</a>
+                        <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon">
+                    </h4>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>
+                        <a href="#">Support</a>
+                        <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon">
+                    </h4>
+                    <ul>
+                        <li><a href="#">Updates</a></li>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">Startups</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="footer-bottom">
+            <p>© 2088 Nayzak Design</p>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
+                <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
+                <a href="#"><img src="images/email-icon.svg" alt="Email"></a>
+            </div>
+            <div class="language-currency">
+                <select>
+                    <option value="en"> 🇺🇸 English</option>
+                    <!-- Add more languages as needed -->
+                </select>
+                <select>
+                    <option value="usd">USD</option>
+                    <!-- Add more currencies as needed -->
+                </select>
+            </div>
+        </div>
+    </footer>
+
+    <!--FOOTER-->
 </body>
 </html>
