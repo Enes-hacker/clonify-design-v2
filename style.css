@@ -764,6 +764,13 @@ body {
   color: var(--footer-color);
 }
 
+@media (max-width: 1024px) {
+  .footer-bottom {
+    border-top: none;
+  }
+  
+}
+
 .language-currency {
   display: flex;
   gap: 10px;
@@ -794,6 +801,7 @@ body {
   .social-icons:nth-child(2) {
     display: none;
   }
+
 
   .social-icons a img {
     width: 36px;
