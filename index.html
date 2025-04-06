@@ -1,27 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Clonify</title>
-    <style>
-        /* Hide the first .social-icons for smaller resolutions */
-        @media (max-width: 768px) {
-            .footer-left .social-icons {
-                display: none;
-            }
-        }
-
-        /* Hide the second .social-icons for desktop resolutions */
-        @media (min-width: 769px) {
-            .footer-bottom .social-icons {
-                display: none;
-            }
-        }
-    </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="navbar-container">
@@ -40,7 +27,8 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Shop</a></li>
                 <li class="dropdown">
-                    <a href="#">Product <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon"></a>
+                    <a href="#">Product <img src="images/chevron-down.svg" alt="Dropdown Icon"
+                            class="dropdown-icon"></a>
                     <div class="dropdown-content">
                         <a href="#">Product 1</a>
                         <a href="#">Product 2</a>
@@ -74,56 +62,53 @@
 
     <button class="btn btn--left">
         <img src="images/slider-left.svg" alt="Left Arrow" class="btn-icon">
-          
+
     </button>
     <button class="btn btn--right">
         <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon">
-          
-          
+
+
     </button>
 
     <!--Header-->
 
     <!--Brands-->
     <div class="brands-container">
-        <div class="b-image">
-            <img src="images/NIKI.png" alt="Brands" class="brands-image">
-        </div>
-        <div class="b-image">
-            <img src="images/hush.svg" alt="Nike" class="brands-image">
-        </div>
-        <div class="b-image">
-            <img src="images/puma.svg" alt="Mara" class="brands-image">
-        </div>
-        <div class="b-image">
-            <img src="images/schoei.png" alt="Brands" class="brands-image">
-        </div>
-        <div class="b-image">
-            <img src="images/mara.png" alt="Nike" class="brands-image">
-        </div>
-        <div class="b-image">
-            <img src="images/supreme.png" alt="Mara" class="brands-image">
-        </div>
-    </div>
-
-
-  
-
-        <button class="btn-two btn--left-brands">
+        <button class="btn btn--left-brands">
             <img src="images/slider-left.svg" alt="Left Arrow" class="btn-icon-two">
-              
+
         </button>
-        <button class="btn-two btn--right-brands">
+        <div class="brands-img-container">
+            <div class="b-image">
+                <img src="images/NIKI.png" alt="Brands" class="brands-image">
+            </div>
+            <div class="b-image">
+                <img src="images/hush.svg" alt="Nike" class="brands-image">
+            </div>
+            <div class="b-image">
+                <img src="images/puma.svg" alt="Mara" class="brands-image">
+            </div>
+            <div class="b-image">
+                <img src="images/schoei.png" alt="Brands" class="brands-image">
+            </div>
+            <div class="b-image">
+                <img src="images/mara.png" alt="Nike" class="brands-image">
+            </div>
+            <div class="b-image">
+                <img src="images/supreme.png" alt="Mara" class="brands-image">
+            </div>
+
+        </div>
+
+        <button class="btn btn--right-brands">
             <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon-two">
         </button>
-
         <div class="dots">
             <button class="dot dot--fill active">&nbsp;</button>
             <button class="dot">&nbsp;</button>
             <button class="dot">&nbsp;</button>
         </div>
-   
-
+    </div>
     <!--Brands-->
 
 
@@ -150,14 +135,14 @@
 
     <!--Learn More Section-->
     <section id="learnmore">
-    <div class="learn-more-container">
-        <div class="learn-more-content">
-            <h2>Exquisite Craftsmanship</h2>
-            <p>Phosfluor escently engage worldwilde methodologies with web-enabled process-centric technology.</p>
-            <a href="#" class="learn-more-btn">Learn more</a>
+        <div class="learn-more-container">
+            <div class="learn-more-content">
+                <h2>Exquisite Craftsmanship</h2>
+                <p>Phosfluor escently engage worldwilde <span>methodologies</span> with web-enabled <span> process-centric</span> technology.</p>
+                <a href="#" class="learn-more-btn">Learn more</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!--Learn More Section-->
 
@@ -167,7 +152,7 @@
             <!-- Left Section: Logo and Description -->
             <div class="footer-left">
                 <img src="images/Branding.png" alt="Clonify Logo" class="logo">
-                <p>Phos fluore scently engage worldwide method process shopping.</p>
+                <p>Phosf luorescently engage worldwide method process shopping.</p>
                 <div class="social-icons">
                     <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
                     <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
@@ -241,4 +226,5 @@
 
     <!--FOOTER-->
 </body>
+
 </html>
