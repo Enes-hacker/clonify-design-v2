@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #fff;
+  background-color: var(--main-color);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -150,8 +150,6 @@ body {
   width: 70%;
 }
 
-
-
 .i-right a {
   font-size: 17px;
   line-height: 32px;
@@ -192,7 +190,6 @@ body {
   width: 115px;
   height: 32px;
   display: inline-block;
- 
   background: none;
 }
 
@@ -203,6 +200,10 @@ body {
     display: block;
     height: 24px;
     cursor: pointer;
+  }
+
+  .navbar{
+    background-color: #fff;
   }
 
   .logo {
@@ -246,12 +247,15 @@ body {
   .header {
     flex-direction: column;
     align-items: center;
+    background: #fff;
   }
 
   .i-left,
   .i-right {
     width: 100%;
   }
+
+ 
 
   .i-left img {
     max-width: 100%;
@@ -408,13 +412,13 @@ body {
   top: 60%;
 
   /*In relation to ELEMENT ITSELF*/
-  transform: translate(-50%, -50%);
+  transform: translate(50%, -50%);
 }
 
 .btn--right {
   right: 70px; /*positions the button to the right*/
   top: 60%;
-  transform: translate(-50%, -50%);
+  transform: translate(50%, -50%);
 }
 
 /*Brands*/
