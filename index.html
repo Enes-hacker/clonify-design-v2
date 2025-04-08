@@ -50,7 +50,12 @@
     <!--Header-->
     <div class="header">
         <div class="i-left">
-            <img src="images/hero-img.png" alt="Leather Bag">
+            <!--<img src="images/hero-img.png" alt="Leather Bag">-->
+            <picture>
+                <source media="(max-width: 576px)" srcset="images/hero-image-mobile.png">
+                <source media="(min-width: 577px)" srcset="images/hero-img.png">
+                <img src="desktop/image-deep-earth.jpg" alt=""/>
+            </picture>
         </div>
         <div class="i-right">
             <h2>IKIGAI</h2>
@@ -104,9 +109,15 @@
             <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon-two">
         </button>
         <div class="dots">
-            <button class="dot dot--fill active">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
+        <div class="dot-border-b">
+            <img src="images/Shape-black.svg" alt="Dot" class="dot--fill active">
+        </div>
+        <div class="dot-border">
+            <img src="images/Shape.svg" alt="Dot" class="dot">
+        </div>
+        <div class="dot-border">
+            <img src="images/Shape.svg" alt="Dot" class="dot">
+        </div>
         </div>
     </div>
     <!--Brands-->
