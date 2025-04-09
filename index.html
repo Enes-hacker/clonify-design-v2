@@ -1,240 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Clonify</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <div class="navbar-container">
-            <!-- Logo -->
-            <div class="logo">
-                <img src="images/Branding.png" alt="Clonify Logo">
-            </div>
-
-            <!-- Hamburger Menu Icon -->
-            <div class="hamburger-menu">
-                <img src="images/Hamburger.svg" alt="Hamburger Menu">
-            </div>
-
-            <!-- Navigation Links -->
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li class="dropdown">
-                    <a href="#">Product <img src="images/chevron-down.svg" alt="Dropdown Icon"
-                            class="dropdown-icon"></a>
-                    <div class="dropdown-content">
-                        <a href="#">Product 1</a>
-                        <a href="#">Product 2</a>
-                        <a href="#">Product 3</a>
-                    </div>
-                </li>
-                <li><a href="#">Pages</a></li>
-            </ul>
-
-            <!-- Icons -->
-            <div class="nav-icons">
-                <a href="#"><img src="images/search.svg" alt="Search Icon"></a>
-                <a href="#"><img src="images/person.svg" alt="Person Icon"></a>
-                <a href="#"><img src="images/heart.svg" alt="Heart Icon"></a>
-            </div>
+      <div class="navbar-container">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="images/Branding.png" alt="Clonify Logo" />
         </div>
+
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu">
+          <img src="images/Hamburger.svg" alt="Hamburger Menu" />
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li class="dropdown">
+            <a href="#"
+              >Product
+              <img
+                src="images/chevron-down.svg"
+                alt="Dropdown Icon"
+                class="dropdown-icon"
+            /></a>
+            <div class="dropdown-content">
+              <a href="#">Product 1</a>
+              <a href="#">Product 2</a>
+              <a href="#">Product 3</a>
+            </div>
+          </li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+
+        <!-- Icons -->
+        <div class="nav-icons">
+          <a href="#"><img src="images/search.svg" alt="Search Icon" /></a>
+          <a href="#"><img src="images/person.svg" alt="Person Icon" /></a>
+          <a href="#"><img src="images/heart.svg" alt="Heart Icon" /></a>
+        </div>
+      </div>
     </nav>
 
     <!--Header-->
     <div class="header">
-        <button class="btn btn--left">
-            <img src="images/slider-left.svg" alt="Left Arrow" class="btn-icon">
-        </button>
-        <div class="i-left">
-            <!--<img src="images/hero-img.png" alt="Leather Bag">-->
-            <picture>
-                <source media="(max-width: 576px)" srcset="images/hero-image-mobile.png">
-                <source media="(min-width: 577px)" srcset="images/hero-img.png">
-                <img src="desktop/image-deep-earth.jpg" alt=""/>
-            </picture>
-        </div>
-        <div class="i-right">
-            <h2>IKIGAI</h2>
-            <h1>Leather bags worth hugging.</h1>
-            <p>Keep your everyday style chic and on-trend with our selection 20+ styles to choose from.</p>
-            <a class="main-btn">See Collection</a>
-        </div>
-        
-        <button class="btn btn--right">
-            <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon">
-        </button>
-    </div>
+      <button class="btn btn--left">
+        <img src="images/slider-left.svg" alt="Left Arrow" class="btn-icon" />
+      </button>
+      <div class="i-left">
+        <!--<img src="images/hero-img.png" alt="Leather Bag">-->
+        <picture>
+          <source
+            media="(max-width: 576px)"
+            srcset="images/hero-image-mobile.png"
+          />
+          <source media="(min-width: 577px)" srcset="images/hero-img.png" />
+          <img src="desktop/image-deep-earth.jpg" alt="" />
+        </picture>
+      </div>
+      <div class="i-right">
+        <h2>IKIGAI</h2>
+        <h1>Leather bags worth hugging.</h1>
+        <p>
+          Keep your everyday style chic and on-trend with our selection 20+
+          styles to choose from.
+        </p>
+        <a class="main-btn">See Collection</a>
+      </div>
 
-   
+      <button class="btn btn--right">
+        <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon" />
+      </button>
+    </div>
 
     <!--Header-->
 
     <!--Brands-->
     <div class="brands-container">
-        <button class="btn btn--left-brands">
-            <img src="images/slider-left.svg" alt="Left Arrow" class="btn-icon-two">
-
-        </button>
-        <div class="brands-img-container">
-            <div class="b-image">
-                <img src="images/NIKI.png" alt="Brands" class="brands-image">
-            </div>
-            <div class="b-image">
-                <img src="images/hush.svg" alt="Nike" class="brands-image">
-            </div>
-            <div class="b-image">
-                <img src="images/puma.svg" alt="Mara" class="brands-image">
-            </div>
-            <div class="b-image">
-                <img src="images/schoei.png" alt="Brands" class="brands-image">
-            </div>
-            <div class="b-image">
-                <img src="images/mara.png" alt="Nike" class="brands-image">
-            </div>
-            <div class="b-image">
-                <img src="images/supreme.png" alt="Mara" class="brands-image">
-            </div>
-
+      <button class="btn btn--left-brands">
+        <img
+          src="images/slider-left.svg"
+          alt="Left Arrow"
+          class="btn-icon-two"
+        />
+      </button>
+      <div class="brands-img-container">
+        <div class="b-image">
+          <img src="images/NIKI.png" alt="Brands" class="brands-image" />
         </div>
+        <div class="b-image">
+          <img src="images/hush.svg" alt="Nike" class="brands-image" />
+        </div>
+        <div class="b-image">
+          <img src="images/puma.svg" alt="Mara" class="brands-image" />
+        </div>
+        <div class="b-image">
+          <img src="images/schoei.png" alt="Brands" class="brands-image" />
+        </div>
+        <div class="b-image">
+          <img src="images/mara.png" alt="Nike" class="brands-image" />
+        </div>
+        <div class="b-image">
+          <img src="images/supreme.png" alt="Mara" class="brands-image" />
+        </div>
+      </div>
 
-        <button class="btn btn--right-brands">
-            <img src="images/slider-right.svg" alt="Left Arrow" class="btn-icon-two">
-        </button>
-        <div class="dots">
+      <button class="btn btn--right-brands">
+        <img
+          src="images/slider-right.svg"
+          alt="Left Arrow"
+          class="btn-icon-two"
+        />
+      </button>
+      <div class="dots">
         <div class="dot-border-b">
-            <img src="images/Shape-black.svg" alt="Dot" class="dot--fill active">
+          <img
+            src="images/Shape-black.svg"
+            alt="Dot"
+            class="dot--fill active"
+          />
         </div>
         <div class="dot-border">
-            <img src="images/Shape.svg" alt="Dot" class="dot">
+          <img src="images/Shape.svg" alt="Dot" class="dot" />
         </div>
         <div class="dot-border">
-            <img src="images/Shape.svg" alt="Dot" class="dot">
+          <img src="images/Shape.svg" alt="Dot" class="dot" />
         </div>
-        </div>
+      </div>
     </div>
     <!--Brands-->
 
-
     <!--Image Section-->
     <div class="image-container">
-        <div class="image-element">
-            <img src="images/section-image.png" alt="Leather Bag" class="image">
-            <p>Featured</p>
-            <h4>Nairo Series&reg;</h4>
-        </div>
-        <div class="image-element">
-            <img src="images/Paste image.png" alt="Leather Bag" class="image">
-            <p>New</p>
-            <h4>Kensho Series&reg;</h4>
-        </div>
-        <div class="image-element">
-            <img src="images/Paste imageb.png" alt="Leather Bag" class="image">
-            <p>Handmade</p>
-            <h4>Atarashi Series&reg;</h4>
-        </div>
+      <div class="image-element">
+        <img src="images/section-image.png" alt="Leather Bag" class="image" />
+        <p>Featured</p>
+        <h4>Nairo Series&reg;</h4>
+      </div>
+      <div class="image-element">
+        <img src="images/Paste image.png" alt="Leather Bag" class="image" />
+        <p>New</p>
+        <h4>Kensho Series&reg;</h4>
+      </div>
+      <div class="image-element">
+        <img src="images/Paste imageb.png" alt="Leather Bag" class="image" />
+        <p>Handmade</p>
+        <h4>Atarashi Series&reg;</h4>
+      </div>
     </div>
 
     <!--Image section end-->
 
     <!--Learn More Section-->
     <section id="learnmore">
-        <div class="learn-more-container">
-            <div class="learn-more-content">
-                <h2>Exquisite Craftsmanship</h2>
-                <p>Phosfluor escently engage worldwilde <span>methodologies</span> with web-enabled <span> process-centric</span> technology.</p>
-                <a href="#" class="learn-more-btn">Learn more</a>
-            </div>
+      <div class="learn-more-container">
+        <div class="learn-more-content">
+          <h2>Exquisite Craftsmanship</h2>
+          <p>
+            Phosfluor escently engage worldwilde <span>methodologies</span> with
+            web-enabled <span> process-centric</span> technology.
+          </p>
+          <a href="#" class="learn-more-btn">Learn more</a>
         </div>
+      </div>
     </section>
 
     <!--Learn More Section-->
 
     <!--FOOTER-->
     <footer class="footer">
-        <div class="footer-container">
-            <!-- Left Section: Logo and Description -->
-            <div class="footer-left">
-                <img src="images/Branding.png" alt="Clonify Logo" class="logo">
-                <p>Phosf luorescently engage worldwide method process shopping.</p>
-                <div class="social-icons">
-                    <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
-                    <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
-                    <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
-                    <a href="#"><img src="images/email-icon.svg" alt="Email"></a>
-                </div>
-            </div>
-
-            <!-- Middle Sections: Links -->
-            <div class="footer-links">
-                <div class="footer-column">
-                    <h4>
-                        <a href="#">Product</a>
-                        <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon">
-                    </h4>
-                    <ul>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Plugins</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Pricing</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>
-                        <a href="#">Information</a>
-                        <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon">
-                    </h4>
-                    <ul>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Cookies</a></li>
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Security</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h4>
-                        <a href="#">Support</a>
-                        <img src="images/chevron-down.svg" alt="Dropdown Icon" class="dropdown-icon">
-                    </h4>
-                    <ul>
-                        <li><a href="#">Updates</a></li>
-                        <li><a href="#">Discord</a></li>
-                        <li><a href="#">Startups</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+      <div class="footer-container">
+        <!-- Left Section: Logo and Description -->
+        <div class="footer-left">
+          <img src="images/Branding.png" alt="Clonify Logo" class="logo" />
+          <p>Phosf luorescently engage worldwide method process shopping.</p>
+          <div class="social-icons">
+            <a href="#"
+              ><img src="images/facebook-icon.svg" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="images/instagram-icon.svg" alt="Instagram"
+            /></a>
+            <a href="#"><img src="images/twitter-icon.svg" alt="Twitter" /></a>
+            <a href="#"><img src="images/email-icon.svg" alt="Email" /></a>
+          </div>
         </div>
 
-        <!-- Bottom Section -->
-        <div class="footer-bottom">
-            <p>© 2088 Nayzak Design</p>
-            <div class="social-icons">
-                <a href="#"><img src="images/facebook-icon.svg" alt="Facebook"></a>
-                <a href="#"><img src="images/instagram-icon.svg" alt="Instagram"></a>
-                <a href="#"><img src="images/twitter-icon.svg" alt="Twitter"></a>
-                <a href="#"><img src="images/email-icon.svg" alt="Email"></a>
-            </div>
-            <div class="language-currency">
-                <select>
-                    <option value="en"> 🇺🇸 English</option>
-                    <!-- Add more languages as needed -->
-                </select>
-                <select>
-                    <option value="usd">USD</option>
-                    <!-- Add more currencies as needed -->
-                </select>
-            </div>
+        <!-- Middle Sections: Links -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>
+              <a href="#">Product</a>
+              <img
+                src="images/chevron-down.svg"
+                alt="Dropdown Icon"
+                class="dropdown-icon"
+              />
+            </h4>
+            <ul>
+              <li><a href="#">Learn</a></li>
+              <li><a href="#">Plugins</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>
+              <a href="#">Information</a>
+              <img
+                src="images/chevron-down.svg"
+                alt="Dropdown Icon"
+                class="dropdown-icon"
+              />
+            </h4>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Security</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>
+              <a href="#">Support</a>
+              <img
+                src="images/chevron-down.svg"
+                alt="Dropdown Icon"
+                class="dropdown-icon"
+              />
+            </h4>
+            <ul>
+              <li><a href="#">Updates</a></li>
+              <li><a href="#">Discord</a></li>
+              <li><a href="#">Startups</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        <p>© 2088 Nayzak Design</p>
+        <div class="social-icons">
+          <a href="#"><img src="images/facebook-icon.svg" alt="Facebook" /></a>
+          <a href="#"
+            ><img src="images/instagram-icon.svg" alt="Instagram"
+          /></a>
+          <a href="#"><img src="images/twitter-icon.svg" alt="Twitter" /></a>
+          <a href="#"><img src="images/email-icon.svg" alt="Email" /></a>
+        </div>
+        <div class="language-currency">
+          <select>
+            <option value="en">🇺🇸 English</option>
+            <!-- Add more languages as needed -->
+          </select>
+          <select>
+            <option value="usd">USD</option>
+            <!-- Add more currencies as needed -->
+          </select>
+        </div>
+      </div>
     </footer>
 
     <!--FOOTER-->
-</body>
-
+  </body>
 </html>

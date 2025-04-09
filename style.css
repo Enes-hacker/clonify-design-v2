@@ -202,7 +202,7 @@ body {
     cursor: pointer;
   }
 
-  .navbar{
+  .navbar {
     background-color: #fff;
   }
 
@@ -254,8 +254,6 @@ body {
   .i-right {
     width: 100%;
   }
-
- 
 
   .i-left img {
     max-width: 100%;
@@ -325,7 +323,7 @@ body {
     gap: 12px;
   }
 
-  .dot-border-b{
+  .dot-border-b {
     width: 1rem;
     height: 1rem;
     border: 1px solid var(--text-color);
@@ -336,7 +334,6 @@ body {
   }
 }
 
-/* Desktop Styles (above 768px) */
 @media (min-width: 769px) {
   .nav-links,
   .nav-icons {
@@ -564,7 +561,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .learn-more-container .learn-more-content a {
@@ -604,7 +601,7 @@ body {
     color: #fff;
   }
 
-  .learn-more-content p span{
+  .learn-more-content p span {
     display: none;
   }
 
@@ -635,8 +632,6 @@ body {
   }
 }
 /*Learn More Section*/
-
-/*FOOTER*/
 
 /* FOOTER */
 .footer {
@@ -735,7 +730,6 @@ body {
   .footer-bottom {
     border-top: none;
   }
-  
 }
 
 .language-currency {
@@ -768,7 +762,6 @@ body {
   .social-icons:nth-child(2) {
     display: none;
   }
-
 
   .social-icons a img {
     width: 36px;
@@ -877,23 +870,22 @@ body {
   }
 
   .language-currency select {
-   
     padding: 4px;
   }
 
-   /* Hide the first .social-icons for smaller resolutions */
-   @media (max-width: 768px) {
+  /* Hide the first .social-icons for smaller resolutions */
+  @media (max-width: 768px) {
     .footer-left .social-icons {
-        display: none;
+      display: none;
     }
-}
+  }
 
-/* Hide the second .social-icons for desktop resolutions */
-@media (min-width: 769px) {
+  /* Hide the second .social-icons for desktop resolutions */
+  @media (min-width: 769px) {
     .footer-bottom .social-icons {
-        display: none;
+      display: none;
     }
-}
+  }
 }
 /*FOOTER*/
 select {
